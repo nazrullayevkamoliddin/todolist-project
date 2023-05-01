@@ -1,0 +1,49 @@
+.task
+{
+    background: #fff;
+    border-radius: 4px;
+    min-height: 5rem;
+    color: #000;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    cursor: move;
+}
+
+.bottomWrapper
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.status
+{
+    font-size: small;
+    background: var(--color-gray-light);
+    padding: 0.25rem;
+    border-radius: 4px;
+}
+
+.PLANNED
+{
+    background: var(--color-gray-light);
+}
+
+.ONGOING
+{
+    background: var(--color-ongoing);
+}
+
+.DONE
+{
+    background: var(--color-done);
+}
+
+.task img
+{
+    cursor: pointer;
+    height: 1.25rem;
+}
+
